@@ -1,0 +1,69 @@
+This is one project from https://www.freecodecamp.org
+
+All credits to them, I am creating the code here just to study.
+
+Do not forget to follow me on me YouTube Channel an other media as Demegorash.
+
+Learn HTML Forms by Building a Registration Form.
+https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-html-forms-by-building-a-registration-form
+
+You can use HTML forms to collect information from people who visit your webpage.
+
+In this course, you'll learn HTML forms by building a signup page. You'll learn how to control what types of data people can type into your form, and some new CSS tools for styling your page.
+
+*****************************************************************************************
+
+Step 1
+Welcome to the Registration Form project! Start by adding the !DOCTYPE html declaration at the top of the document so the browser knows what type of document it's reading.
+
+*****************************************************************************************
+
+Step 2
+Below the DOCTYPE, add an html element with a lang attribute set to en, so that you have a place to start putting some code
+
+*****************************************************************************************
+
+Step 3
+Next, add opening and closing head and body tags within the html element.
+
+*****************************************************************************************
+
+Step 4
+Add a title and meta element inside the head element. Give your project a title of Registration Form, and add the charset attribute with a value of utf-8 to your meta element.
+
+*****************************************************************************************
+
+Step 5
+Nest a self-closing link element within the head element. Give it a rel attribute with value of stylesheet and an href attribute with a value of styles.css.
+
+*****************************************************************************************
+
+Step 6
+Within the body, provide a heading context for the content, by adding an h1 with the text Registration Form.
+
+*****************************************************************************************
+
+Step 7
+Below the heading, use the following text within a paragraph element to encourage users to register:
+
+Example Code:
+Please fill out this form with the required information
+
+*****************************************************************************************
+
+Step 8
+The vh unit stands for viewport height, and is equal to 1% of the height of the viewport. This makes it relative to the viewport height.
+
+It is time to spruce the project up with some CSS. Begin by giving the body a width of 100%, and a height of 100vh.
+
+*****************************************************************************************
+
+Step 9
+Now, get rid of the horizontal scroll-bar, by setting the body default margin added by some browsers to 0.
+
+*****************************************************************************************
+
+Step 10P
+That is better. Now, make the background easy on the eyes, by changing the body background-color to #1b1b32. Then, to see the text, change the color to #f5f6f7.
+
+*****************************************************************************************
