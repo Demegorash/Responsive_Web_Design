@@ -1,3 +1,14 @@
+All credits to https://www.freecodecamp.org
+
+This is part of the path in order to learn how to code.  I am doing this repo as practice and in order to get the information handly and in one place.
+
+All credits for https://www.freecodecamp.orange
+Do not forget to find me at Social Media as Demegorash and susbcribe or follow for further tutorials.  I am learning and I am glad to share my progress with you.
+
+This is a CSS practice from https://www.freecodecamp.org/learn/2022/responsive-web-design/#learn-css-colors-by-building-a-set-of-colored-markers
+
+*******************************************************************
+
 Step 1
 As you've seen in the previous projects, webpages should start with a DOCTYPE html declaration, followed by an html element.
 Add a DOCTYPE html declaration at the top of the document, and an html element after that. Give the html element a lang attribute with en as its value.
