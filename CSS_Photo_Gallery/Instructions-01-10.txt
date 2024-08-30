@@ -1,0 +1,83 @@
+Learning CSS FlexBox by building a Photo Gallery
+
+I am doing this as a personal record about how to program.
+
+All credits to https://www.freecodecamp.org
+
+Here the link to start this project:  https://www.freecodecamp.org/learn/2022/responsive-web-design/learn-css-flexbox-by-building-a-photo-gallery/step-1
+Flexbox helps you design your webpage so that it looks good on any screen size.
+In this course, you'll use Flexbox to build a responsive photo gallery webpage.
+
+css flexbox photo gallery
+
+***************************************************************************
+
+Step 1
+Begin with your standard HTML boilerplate. Add a DOCTYPE declaration, an html element, a head element, and a body element.
+
+Add the lang attribute to the opening <html> tag with en set as the value.
+
+***************************************************************************
+
+Step 2
+Within your head element, add a meta tag with the name set to viewport and the content set to width=device-width, initial-scale=1.
+
+Also add a meta tag with the charset set to UTF-8.
+
+***************************************************************************
+
+Step 3
+Within your head element, add a title element with the text set to Photo Gallery, and a link element to add your styles.css file to the page.
+
+***************************************************************************
+
+Step 4
+Add a header element within the body element and assign a class of header to it.
+
+Inside the header, create an h1 with css flexbox photo gallery as the text.
+
+***************************************************************************
+
+Step 5
+Below your .header element, create a new div element and assign it a class of gallery. This div will act as a container for the gallery images.
+
+Inside that .gallery element, create nine img elements.
+
+***************************************************************************
+
+Step 6
+Next, give each img a src attribute according to its order in the document. The first img should have a src of https://cdn.freecodecamp.org/curriculum/css-photo-gallery/1.jpg. The rest should be the same, except replace the 1 with the number the img is in the document.
+
+***************************************************************************
+
+Step 7
+In order to better visualize how your elements are sized, adding a border can be helpful.
+
+Give your .gallery element a width of 50% and a border set to 5px solid red.
+
+Then give your img elements a width of 100%, padding set to 5px, and a border set to 5px solid blue.
+
+***************************************************************************
+
+Step 8
+Notice how the blue image border extends beyond the red gallery border. This is due to the way browsers calculate the size of container elements.
+
+The box-sizing property is used to set this behavior. By default, the content-box model is used. With this model, when an element has a specific width, that width is calculated based only on the element's content. Padding and border values get added to the total width, so the element grows to accommodate these values.
+
+Try setting box-sizing to content-box explicitly, with the global * selector. At this point, you will not see any changes, because you are using the default value.
+
+***************************************************************************
+
+Step 9
+The border-box sizing model does the opposite of content-box. The total width of the element, including padding and border, will be the explicit width set. The content of the element will shrink to make room for the padding and border.
+
+Change the box-sizing property to border-box. Notice how your blue image borders now fit within your red gallery border.
+
+***************************************************************************
+
+Step 10
+Now that you have figured out your box-sizing approach, you can clean up the CSS you added to see the changes.
+
+Remove your .gallery and img selectors, and all rules within.
+
+***************************************************************************
