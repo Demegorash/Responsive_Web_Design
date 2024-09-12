@@ -44,6 +44,10 @@ body {
     align-items: flex-end;
 }
 
+.right {
+    justify-content: flex-end;
+}
+
 .calories-info h2 {
     margin: 0px; 
 }
