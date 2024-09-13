@@ -269,3 +269,37 @@ Step 45
 Below your element with the Total Fat text, create a new p element with the text Saturated Fat 1g 5%. Wrap the 5% in a span with the class attribute set to bold. In this case this is enough to align the percentage to 5%.
 
 ***********************************************************
+
+Step 46
+This new p element will need to be indented. Give it a class set to indent.
+
+***********************************************************
+
+Step 47
+Create a new .indent selector and give it a margin-left property set to 1em.
+
+***********************************************************
+
+Step 48
+Create a .daily-value p selector to target all of your p elements in the daily-value section. Give this new selector a border-bottom set to 1px solid #888989.
+
+***********************************************************
+
+Step 49
+The bottom borders under your % Daily Value * and Saturated Fat 1g 5% elements do not extend the full width of the label. Add no-divider to the class for these two elements.
+
+***********************************************************
+
+Step 50
+The :not pseudo-selector can be used to select all elements that do not match the given CSS rule.
+
+Example Code:
+div:not(#example) {
+  color: red;
+}
+
+The above selects all div elements without an id of example.
+
+Modify your .daily-value p selector to exclude the .no-divider elements.
+
+***********************************************************
