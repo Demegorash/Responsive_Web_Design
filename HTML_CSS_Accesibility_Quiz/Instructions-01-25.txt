@@ -177,3 +177,36 @@ This is done by giving the label a for attribute, which contains the id of the i
 This section will take a student's name, email address, and date of birth. Give the label elements appropriate for attributes, as well as text content. Then, link the input elements to the corresponding label elements.
 
 *************************************************
+
+Step 21
+Keeping in mind best-practices for form inputs, give each input an appropriate type and name attribute. Then, give the first input a placeholder attribute.
+
+*************************************************
+
+Step 22
+Even though you added a placeholder to the first input element in the previous lesson, this is actually not a best-practice for accessibility; too often, users confuse the placeholder text with an actual input value - they think there is already a value in the input.
+
+Remove the placeholder text from the first input element, relying on the label being the best-practice.
+
+*************************************************
+
+Step 23
+Within the second section element, add two div elements with a class of question-block.
+
+Then, within each div.question-block element, add one h3 element with text of incrementing numbers, starting at 1, and one fieldset element with a class of question.
+
+*************************************************
+
+Step 24
+The question numbers are not descriptive enough. This is especially true for visually impaired users. One way to get around such an issue, without having to add visible text to the element, is to add text only a screen reader can read.
+
+Append a span element with a class of sr-only to each of the h3 elements.
+
+*************************************************
+
+Step 25
+Within the first span element, add the text Question.
+
+In the second span element, add the text Question.
+
+*************************************************
