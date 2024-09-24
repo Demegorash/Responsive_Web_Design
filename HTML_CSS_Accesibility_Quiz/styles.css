@@ -39,6 +39,10 @@ h1, h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h3::before {
+    content: "Question #";
+}
+
 h2 {
     border-bottom: 4px solid#dfdfe2;
 }
