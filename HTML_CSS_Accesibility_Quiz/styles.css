@@ -33,6 +33,12 @@ main {
     padding-top: 50px;
 }
 
+section {
+    width: 80%;
+    margin: 0 auto 10px auto;
+    max-width: 600px;
+}
+
 nav {
     width: 50%;
     max-width: 300px;
@@ -77,6 +83,26 @@ h3::before {
 
 h2 {
     border-bottom: 4px solid#dfdfe2;
+    margin-top: 0px;
+    padding-top: 60px;
+}
+
+.info {
+    padding: 10px 0 0 5px;
+}
+
+.formrow {
+    margin-top: 30px;
+    padding: 0px 15px;
+}
+
+input {
+    font-size: 16px;
+}
+
+.info input {
+    width: 50%;
+    text-align: left;
 }
 
 body {
